@@ -1,7 +1,6 @@
 import React from "react";
 import NavMenu from "../NavMenu";
 import NavButton from "../NavButton";
-import HeaderWrapper from "../HeaderWrapper";
 
 const menu = [
   { title: "Buy", id: 1 },
@@ -16,10 +15,10 @@ const menu = [
 
 function Header() {
   return (
-    <HeaderWrapper>
+    <div className="header bg-black h-[80px] flex justify-between items-center">
       <NavMenu menu={menu} />
       <NavButton />
-    </HeaderWrapper>
+    </div>
   );
 }
 
