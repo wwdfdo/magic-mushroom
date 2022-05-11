@@ -15,7 +15,7 @@ const menu = [
 
 function Header() {
   return (
-    <div className="header bg-black h-[80px] flex justify-between items-center">
+    <div className="header bg-[#212428d6] h-[80px] flex justify-between items-center">
       <NavMenu menu={menu} />
       <NavButton />
     </div>
