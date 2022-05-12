@@ -1,6 +1,6 @@
 import React from "react";
-import NavMenu from "../NavMenu";
-import NavButton from "../NavButton";
+import NavMenu from "./NavMenu";
+import NavButton from "./Navbutton";
 
 const menu = [
   { title: "Buy", id: 1 },

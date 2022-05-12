@@ -1,4 +1,4 @@
-import NavMenuItem from "../NavMenuItem";
+import NavMenuItem from "./NavMenuItem";
 
 const NavMenu = ({ menu }) => {
   return (
