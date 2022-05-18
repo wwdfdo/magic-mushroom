@@ -1,11 +1,13 @@
-import Banner from "../Banner/Banner";
-import Header from "../Header/header";
+import BgImageSection from "../Bg-Image-Section/BgImageSection";
+import Facts from "../Facts/Facts";
+import Mint from "../Mint/mint";
 
 const Body = () => {
   return (
-    <div className="bg-hero-image w-full h-[100%] bg-no-repeat bg-cover pb-1">
-      <Header />
-      <Banner />
+    <div className="bg-[#212428]">
+      <BgImageSection />
+      <Facts />
+      <Mint />
     </div>
   );
 };
