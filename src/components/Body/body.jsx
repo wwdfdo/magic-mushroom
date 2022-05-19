@@ -3,6 +3,8 @@ import BgImageSection from "../Bg-Image-Section/BgImageSection";
 import Facts from "../Facts/Facts";
 import Mint from "../Mint/mint";
 import Friendliest from "../Friendliest/Friendliest";
+import Story from "../Story/Story";
+import Roadmap from "../Roadmap/Roadmap";
 
 const Body = () => {
   return (
@@ -11,6 +13,7 @@ const Body = () => {
       <Facts />
       <Mint />
       <Friendliest />
+      <Story />
     </div>
   );
 };

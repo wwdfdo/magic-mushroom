@@ -21,7 +21,7 @@ const Friendliest = () => {
         </div>
         <div>
           <button className="bg-blue-600 py-3 px-8 text-white font-semibold text-lg rounded-md">
-            Join Discord{" "}
+            Join Discord
             <span className="ml-2">
               <RightArrow />
             </span>
