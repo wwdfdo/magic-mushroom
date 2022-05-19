@@ -1,3 +1,4 @@
+import React from "react";
 import BannerButtons from "./BannerButtons";
 import BannerImage from "./BannerImage";
 import BannerSubTitle from "./BannerSubTitle";

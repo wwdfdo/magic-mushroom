@@ -1,3 +1,5 @@
+import React from "react";
+
 const Facts = () => {
   return (
     <div className="flex justify-between w-4/6 mx-auto pb-20">

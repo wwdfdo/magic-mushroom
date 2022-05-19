@@ -1,3 +1,4 @@
+import React from "react";
 import RightArrow from "./RightArrow";
 
 const BannerButtons = () => {

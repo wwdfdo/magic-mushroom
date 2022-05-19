@@ -1,3 +1,5 @@
+import React from "react";
+
 const Mint = () => {
   return (
     <div className="flex flex-col gap-4 mx-auto items-center text-center w-[90%] bg-[#2e3034] py-16 shadow-slate-100 rounded-2xl">
