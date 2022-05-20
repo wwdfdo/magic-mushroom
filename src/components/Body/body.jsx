@@ -14,6 +14,7 @@ const Body = () => {
       <Mint />
       <Friendliest />
       <Story />
+      <Roadmap />
     </div>
   );
 };
