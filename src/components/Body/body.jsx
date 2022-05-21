@@ -5,6 +5,12 @@ import Mint from "../Mint/mint";
 import Friendliest from "../Friendliest/Friendliest";
 import Story from "../Story/Story";
 import Roadmap from "../Roadmap/Roadmap";
+import FeaturedCollection from "../FeaturedCollection/FeaturedCollection";
+import ProjectSpecs from "../ProjectSpecs/ProjectSpecs";
+import ScoutStrip from "../ScoutStrip/ScoutStrip";
+import TeamMembersSection from "../TeamMembersSection/TeamMembersSection";
+import JoinMagicMushroom from "../JoinMagicMushroom/JoinMagicMushroom";
+import FooterSection from "../FooterSection/FooterSection";
 
 const Body = () => {
   return (
@@ -15,6 +21,11 @@ const Body = () => {
       <Friendliest />
       <Story />
       <Roadmap />
+      <ProjectSpecs />
+      <ScoutStrip />
+      <TeamMembersSection />
+      <JoinMagicMushroom />
+      <FooterSection />
     </div>
   );
 };

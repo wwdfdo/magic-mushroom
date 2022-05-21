@@ -10,5 +10,10 @@ module.exports = {
       },
     },
   },
+  variants: {
+    extend: {
+      borderColor: ["first", "last"],
+    },
+  },
   plugins: [],
 };
