@@ -11,6 +11,7 @@ import ScoutStrip from "../ScoutStrip/ScoutStrip";
 import TeamMembersSection from "../TeamMembersSection/TeamMembersSection";
 import JoinMagicMushroom from "../JoinMagicMushroom/JoinMagicMushroom";
 import FooterSection from "../FooterSection/FooterSection";
+import QuestionSection from "../Questions/QuestionSection";
 
 const Body = () => {
   return (
@@ -23,6 +24,7 @@ const Body = () => {
       <Roadmap />
       <ProjectSpecs />
       <ScoutStrip />
+      <QuestionSection />
       <TeamMembersSection />
       <JoinMagicMushroom />
       <FooterSection />

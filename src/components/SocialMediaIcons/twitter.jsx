@@ -1,7 +1,7 @@
 import React from "react";
 
 const Twitter = () => {
-  return <i class="fa-brands fa-twitter"></i>;
+  return <i className="fa-brands fa-twitter"></i>;
 };
 
 export default Twitter;

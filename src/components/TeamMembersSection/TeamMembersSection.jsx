@@ -19,7 +19,7 @@ const TeamMembersSection = () => {
       </div>
       <div className="grid grid-cols-4 grid-rows-2 gap-5">
         {membersArray.map((member) => (
-          <div>
+          <div key={member.name}>
             <img src={member.img} alt="" />
             <h2 className="text-white text-xl font-bold leading-loose">
               {member.name}
