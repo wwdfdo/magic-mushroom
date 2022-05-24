@@ -1,6 +1,5 @@
 import React from "react";
 import { QuestionArray } from "../../arrays/questionsArray";
-import { useState } from "react";
 import QsectionTitle from "./QsectionTitle";
 import QsectionFooter from "./QsectionFooter";
 import QsectionAccordion from "./QsectionAccordion";

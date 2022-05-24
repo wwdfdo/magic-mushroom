@@ -1,10 +1,12 @@
 import React from "react";
 import RightArrow from "../Banner/RightArrow";
-import shroom1 from "../../images/shroom1.jpg";
-import shroom2 from "../../images/shroom2.jpg";
-import shroom3 from "../../images/shroom3.jpg";
-import shroom4 from "../../images/shroom4.jpg";
-import shroom5 from "../../images/shroom5.jpg";
+// import shroom1 from "../../images/shroom1.jpg";
+// import shroom2 from "../../images/shroom2.jpg";
+// import shroom3 from "../../images/shroom3.jpg";
+// import shroom4 from "../../images/shroom4.jpg";
+// import shroom5 from "../../images/shroom5.jpg";
+import { featuredCollectionArray } from "../../arrays/featuredCollectionArray";
+import LeftArrow from "../ArrowIcons/LeftArrow";
 
 const FeaturedCollection = () => {
   return (
@@ -20,18 +22,19 @@ const FeaturedCollection = () => {
             the blockchain.
           </p>
         </div>
-        <div className="flex items-end">
+        <div className="flex items-end gap-6">
+          <span className="text-white text-4xl">
+            <LeftArrow />
+          </span>
           <span className="text-white text-4xl">
             <RightArrow />
           </span>
         </div>
       </div>
       <div className="flex overflow-hidden w-full">
-        <img className="w-1/4 h-auto" src={shroom1} alt="" />
-        <img className="w-1/4 h-auto" src={shroom2} alt="" />
-        <img className="w-1/4 h-auto" src={shroom3} alt="" />
-        <img className="w-1/4 h-auto" src={shroom4} alt="" />
-        <img className="w-1/4 h-auto" src={shroom5} alt="" />
+        {featuredCollectionArray.map((item) => (
+          <img className="w-1/4 h-auto" src={item.img} alt="" />
+        ))}
       </div>
     </div>
   );

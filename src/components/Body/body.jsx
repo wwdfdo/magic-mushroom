@@ -22,6 +22,7 @@ const Body = () => {
       <Friendliest />
       <Story />
       <Roadmap />
+      <FeaturedCollection />
       <ProjectSpecs />
       <ScoutStrip />
       <QuestionSection />
